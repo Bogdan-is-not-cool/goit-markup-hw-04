@@ -359,13 +359,19 @@ button:focus {
         letter-spacing: 0.02em;
         color: #ffffff;
         margin-bottom: 16px;
-}  
+} 
 
-.div-two-all-footer {}
+.div-one-paragraf {
+        display: flex;
+        align-items: baseline;
+        margin-right: 120px;
+}
 
-.div-soc-media{}
+.div-two-paragraf {}
 
-.div-icons {}
+.div-soc-media {}
+
+.div-icons-footer {}
 
 .icon-ul-footer {}
 
