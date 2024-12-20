@@ -380,10 +380,7 @@ button:focus {
 
 .div-two-paragraf {}
 
-.div-soc-media {
-        display: flex;
-        align-items: baseline;
-}
+.div-soc-media {}
 
 .div-soc-media-p {
         font-weight: 500;
