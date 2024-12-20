@@ -380,9 +380,9 @@ button:focus {
 
 .div-two-paragraf {}
 
-.div-soc-media {}
 
-.div-soc-media-p {
+
+.soc-media-p {
         font-weight: 500;
         font-size: 16px;
         line-height: 1.5;
@@ -391,9 +391,12 @@ button:focus {
         margin-bottom: 16px;
 }
 
-.div-icons-footer {}
 
-.icon-ul-footer {}
+
+.icon-ul-footer {
+        display: flex;
+        gap: 16px;
+}
 
 .icon-li-footer {}
 
