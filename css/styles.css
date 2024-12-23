@@ -415,6 +415,11 @@ button:focus {
         align-items: center;
 }
 
+.icon-a-footer:hover,
+.icon-a-footer:focus {
+        background-color: #31d0aa;
+}
+
 .icon-svg-footer {}
 
 /* #endregion */
