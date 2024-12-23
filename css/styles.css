@@ -402,7 +402,6 @@ button:focus {
         display: flex;
         gap: 16px;
         height: 40px;
-        width: 40px;
 }
 
 .icon-li-footer {
