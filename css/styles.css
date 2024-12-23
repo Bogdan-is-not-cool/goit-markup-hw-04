@@ -52,14 +52,14 @@ img {
 /* #region Header */
 
 .header-class{
-    border-bottom: 1px solid #e7e9fc;
-box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
+        border-bottom: 1px solid #e7e9fc;
+        box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 
 }
 
 .header-class .container {
-    display: flex;
-    justify-content: space-between;
+        display: flex;
+        justify-content: space-between;
 }
 
 .logo-header {
@@ -73,18 +73,18 @@ box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.1
 }
 
 .logo-header, .logo-style-studio {
-    margin-right: 76px
+        margin-right: 76px
 }
 
 .nav-list-header {
-    display: flex;
-    gap: 40px;
+        display: flex;
+        gap: 40px;
 }
 
 .nav-class {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
 }
 
 .logo-style-studio {
@@ -105,11 +105,13 @@ box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.1
         padding-top: 24px;
         padding-bottom: 24px;
         display: block;
+        position: relative;
 }
 .nav-item-link:hover,
 .nav-item-link:focus {
         color: #404bbf;
         position: relative;
+
 }
 
 .address-li {
@@ -401,9 +403,7 @@ button:focus {
         width: 40px;
 }
 
-.icon-li-footer {
-        transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
+.icon-li-footer 
 
 .icon-a-footer {
         fill: #F4F4FD;
@@ -414,6 +414,7 @@ button:focus {
         display: flex;
         justify-content: center;
         align-items: center;
+        transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .icon-a-footer:hover,
