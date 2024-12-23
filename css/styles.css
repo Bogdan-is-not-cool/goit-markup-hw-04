@@ -81,6 +81,22 @@ img {
         gap: 40px;
 }
 
+.nav-item-studio .nav-item-link {
+        color: #404bbf;
+}
+
+.nav-item-studio .nav-item-link::after {
+        content: "";
+        width: 100%;
+        position: absolute;
+        left: 0;
+        bottom: -1px;
+        height: 4px;
+        background-color: #404bbf;
+        border-radius: 2px;
+        
+}
+
 .nav-class {
         display: flex;
         justify-content: space-between;
