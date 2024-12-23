@@ -94,7 +94,7 @@ img {
         height: 4px;
         background-color: #404bbf;
         border-radius: 2px;
-        
+
 }
 
 .nav-class {
@@ -235,6 +235,17 @@ button:focus {
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: #434455;
+}
+
+.container-h-two-icons {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 112px;
+        border-radius: 4px;
+        background-color: #f4f4fd;
+        border: 1px solid #8e8f99;
+        margin-bottom: 8px;
 }
 
 .h-twoo 
