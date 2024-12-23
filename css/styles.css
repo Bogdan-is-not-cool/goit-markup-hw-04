@@ -328,6 +328,7 @@ button:focus {
         display: flex;
         justify-content: center;
         align-items: center;
+        transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .a-soc:hover,
