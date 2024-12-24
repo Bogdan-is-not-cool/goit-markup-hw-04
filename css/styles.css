@@ -366,20 +366,24 @@ button:focus {
         row-gap: 48px;
 }
 
-.section-four-li 
+.section-four-li {
+        position: relative;
+}
 
 .cont-img-a:hover .sec-four-cont-p {
         transform: translateY(0%);
 }
 
 .container-img {
-        position: relative;
         overflow: hidden;
 }
 
-.sec-four-cont-p {
+.cont-p {
         position: absolute;
-        top:0;
+        top: 0;
+}
+
+.sec-four-cont-p {
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
