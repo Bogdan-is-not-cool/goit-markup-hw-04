@@ -368,7 +368,7 @@ button:focus {
 
 .section-four-li 
 
-.cont-img-a:hover .sec-four-cont-p {
+.container-img:hover .sec-four-cont-p {
         transform: translateY(0%);
 }
 
