@@ -142,6 +142,9 @@ img {
 .address-ul {
         display: flex;
         gap: 40px;
+        
+
+
 }
 
 .add-item {
@@ -170,9 +173,25 @@ img {
         text-align: center;
         color: #ffffff;
         max-width: 496px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 48px;
 }
+
+.glvod .container {
+        flex-direction: column;
+}
+
 .glvod {
+        display: flex;
+        height: 600px;
+        align-items: center;
+        justify-content: center;
         background-color: #2e2f42;
+        background-clip: padding-box;
+        text-align: center;
+        max-width: 1440px;
+        margin: 0 auto;
         padding: 188px 0;
         background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office.jpg);
         max-width: 1440px;
@@ -182,6 +201,7 @@ img {
 
 }
 .knopka {
+        font-size: 16px;
         border-radius: 4px;
         border: none;
         display: block;
@@ -194,6 +214,10 @@ img {
         color: #ffffff;
         background-color: #4D5AE5;
         transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+        padding: 16px 32px;
+        margin-left: auto;
+        margin-right: auto;
+
         }
 button:hover,
 button:focus {
@@ -253,15 +277,25 @@ button:focus {
 /* #endregion */
 
 /* #region section-3 */
-.section-tree-full {
-        background-color: #F4F4FD;
+
+
+.our-team  {
+        padding-top: 120px ;
+        display: flex;
+        align-items: center;
+        padding-bottom: 120px;
+        background: #f4f4fd;
+        padding-bottom: 72px;
 }
 
-.section-tree-full {
-        padding: 120px 0;
+.our-team .container {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
 }
 
 .section-tree-h_two {
+        display: flex;
         font-weight: 700;
         font-size: 36px;
         line-height: 1.11;
