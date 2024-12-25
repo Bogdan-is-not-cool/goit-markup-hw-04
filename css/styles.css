@@ -273,13 +273,12 @@ button:focus {
         margin-bottom: 8px;
 }
 
-.h-twoo 
 /* #endregion */
 
 /* #region section-3 */
 
 
-.our-team  {
+.our-team {
         padding-top: 120px ;
         display: flex;
         align-items: center;
