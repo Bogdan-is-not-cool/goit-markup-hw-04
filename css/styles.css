@@ -294,7 +294,6 @@ button:focus {
 }
 
 .section-tree-h_two {
-        display: flex;
         font-weight: 700;
         font-size: 36px;
         line-height: 1.11;
@@ -484,9 +483,17 @@ button:focus {
         background-color: #2E2F42;
         padding: 100px 0;
 }
-.logo-footer-all, .container {
+.logo-footer-all {
         display: flex;
         align-items: baseline;
+}
+
+.page-footer-content {
+        display: flex;
+        align-items: baseline;
+        justify-content: space-between;
+        max-width: 1158px;
+        margin: 0 auto;
 }
 
 .logo-footer-a {
